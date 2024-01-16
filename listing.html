@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>staybnb</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6db5bf0f63.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+    <nav id="navBar" class="navbar-white">
+         <img src="images/logo.webp" class="logo">
+        <ul class="nav-links">
+           <li><a href="#" class="active"> Popular Places</a></li>
+           <li><a href="#">Travel Outside</a></li>
+           <li><a href="#">Online packages</a></li>
+        </ul>
+          <a href="#" class="register-btn">register Now</a>
+          <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright © 2021, Fardus H Tech.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var navbar = document.getElementById("navBar"); 
+        function togglebtn(){
+         navbar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
