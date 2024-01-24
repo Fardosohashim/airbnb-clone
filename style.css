@@ -475,10 +475,14 @@ margin: 40px 0;
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    text-decoration: none;
 }
 .pagination .current{
   background: #333;
-  color: #fff;  
+  color: #fff; 
+  border-radius: 50%;
+  text-decoration: none;
+  
 }
 /* ----small screen  for listing page */
 @media only screen and (max-width: 700px) {
