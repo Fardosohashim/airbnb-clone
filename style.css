@@ -34,8 +34,8 @@ nav{
    color: #fff; 
 }
 .register-btn {
-    background: #fff;
-    color: #000;
+    background: #ff5361;
+    color: #fff;
     padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -221,6 +221,21 @@ font-weight: 500;
  font-size: 22px;
  margin: 0 10px;   
 }
+.footer .fb:hover{
+   color: blue; 
+}
+.footer .you:hover{
+    color: red; 
+ }
+ .footer .tw:hover{
+    color: blue; 
+ }
+ .footer .link:hover{
+    color: blue; 
+ }
+ .footer .inst:hover{
+    color: red; 
+ }
 .footer hr{
  background: #999;
  height: 1px;
@@ -274,8 +289,9 @@ nav .fa-bars{
     }
     .register-btn {
      margin: 15px 0 30px;
-     display: inline-block;   
+     display: inline-block;  
     }
+
     nav .fa-bars{
      display: block;
      position: fixed;
@@ -475,10 +491,14 @@ margin: 40px 0;
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    text-decoration: none;
 }
 .pagination .current{
   background: #333;
-  color: #fff;  
+  color: #fff; 
+  border-radius: 50%;
+  text-decoration: none;
+  
 }
 /* ----small screen  for listing page */
 @media only screen and (max-width: 700px) {
@@ -708,5 +728,6 @@ margin: 40px 0;
  }
  .contact-host {
     margin: 40px 0;
+  
  }
 }
