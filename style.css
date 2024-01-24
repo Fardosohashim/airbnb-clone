@@ -34,8 +34,8 @@ nav{
    color: #fff; 
 }
 .register-btn {
-    background: #fff;
-    color: #000;
+    background: #ff5361;
+    color: #fff;
     padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -289,8 +289,9 @@ nav .fa-bars{
     }
     .register-btn {
      margin: 15px 0 30px;
-     display: inline-block;   
+     display: inline-block;  
     }
+
     nav .fa-bars{
      display: block;
      position: fixed;
